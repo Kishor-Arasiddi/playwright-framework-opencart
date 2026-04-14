@@ -8,6 +8,7 @@ export class HomePage {
   readonly inputSearch:Locator;
   readonly btnSearch:Locator;
 
+  //constructor
   constructor(page: Page) {
     this.page = page;
     this.lnkMyAccount = page.locator("a[title='My Account']");
