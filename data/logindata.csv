@@ -1,0 +1,3 @@
+testName,email,password,expected
+Valid login,naruto@sharklasers.com,Naruto@123,success
+Invalid login,sasuke@sharklasers.com,Sasuke@123,fail

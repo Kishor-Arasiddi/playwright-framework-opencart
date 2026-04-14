@@ -1,0 +1,20 @@
+[
+    {
+        "testName":"Valid login",
+        "email":"naruto@sharklasers.com",
+        "password":"Naruto@123",
+        "expected":"success"
+    },
+    {
+        "testName":"Invalid login",
+        "email":"sasuke@sharklasers.com",
+        "password":"Sasuke@123",
+        "expected":"fail"
+    },
+    {
+        "testName":"valid login",
+        "email":"sakura@sharklasers.com",
+        "password":"Sakura@123",
+        "expected":"fail"
+    }
+]
