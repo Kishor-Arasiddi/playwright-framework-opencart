@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "master":"playwright test --grep @master",     
-    "sanity":"playwright test --grep @sanity",
-    "regression":"playwright test --grep @regression",
-    "datadriven":"playwright test --grep @datadriven --headed",
-    "master:headed":"playwright test --grep @master --headed",
-    "sanity:debug":"playwright test --grep @sanity --debug"
+    "master": "playwright test --grep @master",
+    "sanity": "playwright test --grep @sanity",
+    "regression": "playwright test --grep @regression",
+    "datadriven": "playwright test --grep @datadriven --headed",
+    "master:headed": "playwright test --grep @master --headed",
+    "sanity:debug": "playwright test --grep @sanity --debug"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +17,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.58.2",
-    "@types/node": "^25.5.0",
+    "@types/node": "^25.6.0",
     "allure-commandline": "^2.38.1",
     "allure-playwright": "^3.6.0"
   },
